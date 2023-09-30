@@ -4,33 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon CV</title>
-    <link rel="stylesheets" href="./assets/css/cv.css"
+    <link rel="stylesheet" href="./assets/css/cv.css">
 
 </head>
 <body>
     <header> 
-        <h1> ELSA ALBERTINI <br>
-            Développeuse Web Junior
-        </h1>
-     <img src="./img/photo de profil.png" alt="ma photo de profil">
+        <figure id="container">
+            <a href="./img/photodeprofil.png" target="_blank"><img src="./img/photodeprofil.png" alt="ma photo de profil" id="Profile" ></a>
+            </figure>
+        <h1> Elsa Alves </h1>
+           <h2 id="secondtitle">Développeuse Web Junior</h2>
+        
+        
 
      <address>
-        <a href="https://www.google.fr/maps/place/12+Rue+des+Petits+Champs,+75002+Paris/@48.8666713,2.3349465,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e3b2d94325f:0x3dbe1b49af423169!8m2!3d48.8666678!4d2.3375214!16s%2Fg%2F11c5m1szrf?entry=ttu"> 12 rue des Petits Champs 75000</a>
-        <a href="mailto: jane.doe@gmail.com">jane.doe@gmail.com</a>
-        <a href= tel: 0606060606>0606060606</a>
+        <a href="https://www.google.fr/maps/place/12+Rue+des+Petits+Champs,+75002+Paris/@48.8666713,2.3349465,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e3b2d94325f:0x3dbe1b49af423169!8m2!3d48.8666678!4d2.3375214!16s%2Fg%2F11c5m1szrf?entry=ttu" id="a1"> 12 rue des Petits Champs <br> 75000 Paris</a>
+        <a href="mailto:jane.doe@gmail.com" id="a2">jane.doe@gmail.com</a>
+        <a href= tel:0606060606 id="a3">0606060606</a>
      </address>
     </header>
 
     <main> 
-        <section> 
+        <section id="bloc-1"> 
             <div>
-            <h2> Expériences professionnelles </h2>
+            <h2 id="maintitle1"> Expériences professionnelles </h2>
               <h3> Préparatrice de commande drive chez Carrefour </h3>
               <p> De Octobre 2020 à Décembre 2020 </p> 
                 <ul>
                     <li> Préparation des commandes au sein du magasin </li>
                     <li> Accueil des clients </li>
-                    <li> Livraison des commandes </li>
+                
                 </ul>
             </div>
 
@@ -40,7 +43,6 @@
                 <ul> 
                     <li> Soutien scolaire et aide dans l'élaboration d'un dossier sur le long terme</li>
                     <li> Tâches administratives</li>
-                    <li> Collaboration avec d'autres unités de formation</li>
                 </ul>
 
             </div>
@@ -51,14 +53,13 @@
                 <ul>
                     <li> Former et guider les nouveaux arrivants</li>
                     <li> Répondre aux besoins des clients</li>
-                    <li> Effectuer des horaires particuliers</li>
                 </ul>
             </div>
-        </section>
         
-        <section>
+        
+        
             <div>
-                <h2> Diplôme / Formations </h2>
+                <h2 id="maintitle2"> Diplôme / Formations </h2>
                   <h3> Bachelor Sport Business - 1ère année </h3>
                    <p> De 2017 à 2018 </p>
                    <p> Amos, école spécialisée dans le sport business</p>
@@ -69,11 +70,10 @@
                   <p> Année 2016</p>
                   <p> Candidat libre</p>
             </div>
-        </section>
-
-        <section>
+        
+            
             <div> 
-                <h2> Compétences </h2>
+                <h2 id="maintitle3"> Compétences </h2>
                 <ul>
                     <li> HTML 5 Intermédiaire</li>
                     <li> CSS-3 Intermédiaire</li>
@@ -83,32 +83,32 @@
             </div>
         </section>
 
-        <section>
+        <section id="bloc-2">
             <div>
-                <h2> A propos </h2>
-                <p>  Candidate dynamique et motivée, je recherche un poste de développeuse Web Junior dans la région de Paris.
+                <h2 id="maintitle4"> A propos </h2>
+                <p id="description">  Candidate dynamique et motivée, je recherche un poste de développeuse Web Junior dans la région de Paris.
                      Diplômé d'un titre d'état RNCP, je souhaite développer mon parcours professionnel dans le domaine du développement.
                      De nature serviable et organisée, je saurai m'adapter rapidement à mon nouvel environnement de travail tout en intégrant les différentes tâches liées au poste. 
                 </p>
             </div>
-        </section>
+        
 
-        <section>
+        
             <div>
-                <h2> Langues parlées </h2>
-                <ul>
+                <h2 id="maintitle5"> Langues parlées </h2>
+                <ul id="list1">
                     <li> Français : Langue maternelle </li>
                     <li> Anglais : Courant </li>
                     <li> Espagnol : Intermédiaire </li>
                     <li> Portugais : Débutant </li>
                 </ul>
             </div>
-        </section>
+        
 
-        <section>
+        
             <div>
-                <h2> Centres d'interêt</h2>
-                <ul> 
+                <h2 id="maintitle6"> Centres d'interêt</h2>
+                <ul id="list2"> 
                     <li> Sport </li>
                     <li> Cinéma </li>
                     <li> Lecture </li>
@@ -118,14 +118,17 @@
 
      </main>
 
-     <footer> 
-        <img src="./logos/linkedin.png" alt="Mon compte LinkedIn">
-        <img src="./logos/twitter.png" alt= "Mon compte twitter">
-        <img src="./logos/signe-github.png"alt="Mon compte GitHub">
-
-        <p> Dernière mise à jour le <time datetime="2023-09-29"> 29 Septembre 2023 </time></p>
+     <footer id="bloc-3"> 
+        
+       
+        <a href="https://www.linkedin.com/in/elsa-alves-053163294" target="_blank"><img src="./logos/linkedin.png" alt="Mon compte LinkedIn" id="img1" ></a>
+        <a href="https://twitter.com/ElsaA47181" target="_blank"><img src="./logos/twitter.png" alt= "Mon compte twitter" id="img2"></a>
+        <a href="https://github.com/ElAlbe" target="_blank"><img src="./logos/signe-github.png" alt="Mon compte GitHub" id="img3"></a>
+        
+        <p id="datetime"> Dernière mise à jour le <time datetime="2023-09-30"> 30 Septembre 2023 </time></p> 
      </footer>
-    
+
+     
     
 </body>
 </html>
